@@ -1,0 +1,56 @@
+/* banner css  */
+
+.banner {
+  height: 366px;
+  text-align: center;
+  background-color: red;
+  background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* card css  */
+.card {
+  margin-top: 90px;
+  padding: 20px;
+  width: 150px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* button css  */
+.btn {
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: 0px;
+  border-radius: 50px;
+}
+.button-container{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+/* bookmark card css  */
+.bookme{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 148, 204);
+}
