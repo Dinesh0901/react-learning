@@ -4,7 +4,7 @@ import './styles.css'
 const Banner = () => {
   return (
     <div className='banner'>
-      <h1>Banner</h1>
+      <h1></h1>
     </div>
   )
 }
