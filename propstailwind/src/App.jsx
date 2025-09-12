@@ -20,7 +20,7 @@ const App = () => {
 
       <div>
         <Cards channel={value} />
-        <Cards channel={dummy} />
+        <Cards channel={dummy} onChange={setDummy} />
       </div>
     </>
   );
