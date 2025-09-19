@@ -12,11 +12,11 @@ import Github, { githubInfoLoader } from "./pages/github.jsx";
 
 // const router = createBrowserRouter([
 //   {
-//     path: "/",
+//     path: "",
 //     element: <Layout />,
 //     children: [
 //       {
-//         path: "",
+//         path: "/",
 //         element: <Home />,
 //       },
 //       {
@@ -37,13 +37,13 @@ import Github, { githubInfoLoader } from "./pages/github.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout />}>
-        <Route path="" element={<Home />}/>
+    <Route path= "" element={<Layout />}>
+        <Route path="/" element={<Home />}/>
         <Route path="about" element={<About/>}/>
         <Route path="contact" element={<Contact/>}/>
         <Route path="user/:userid" element={<User/>}/>
          <Route 
-         loader={githubInfoLoader}
+      
          path="github" element={<Github/>}
          />
 //     </Route>
